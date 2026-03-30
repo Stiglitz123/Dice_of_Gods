@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "rootDirs": ["src/server", "src/common"],
+    "outDir": "dist",
+    "baseUrl": "src",
+
+    // 🔹 ton alias que tu utilisais déjà
+    "paths": {
+      "@common/*": ["common/*"]
+    },
+
+    // ---- TS / Node ----
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "target": "ES2020",
+    "lib": ["ES2020"],
+    "types": ["node", "jest"],
+
+    // ---- sortie ----
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    // ---- strict ----
+    "strict": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true
+  },
+
+  // 🔹 on inclut bien les deux
+  "include": [
+    "src/server/**/*",
+    "src/common/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "src/server/tests"
+  ]
+}

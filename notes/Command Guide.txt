@@ -1,0 +1,11 @@
+ÉTAPES :
+
+1 - Utilisateur fait une action
+
+2 - Un Objet Command est envoyé au GameManager sur le serveur (avec les paramètres nécessaires)
+
+3 - La command est execute() par le GameManager --> Le state de la partie est mise à jour
+
+4 - Le GameManager emit un JSON condensé contenant : Le type de la commande et ses paramètres ; Les joueurs avec (hp, shield, etc..)
+
+5 - Animer la vue selon l'action

@@ -1,0 +1,18 @@
+DONE BUT NOT TESTED:
+x
+
+TODO:
+clean code with typing
+
+GameTest Monkey
+
+Document Presentation
+
+TO BE ADDED:
+gameHistory, 5 most recent games (inplemented not used (in view))
+gamestats most used arti/god
+analyse/matrix
+known artifact
+GameStats deckbuilder
+StateMachine AI decision
+

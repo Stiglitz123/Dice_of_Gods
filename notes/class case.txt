@@ -1,0 +1,43 @@
+À terminer :
+
+-Game
+-Dice
+-Les liens entre tout
+
+QUESTION MONTY:
+
+-Command (patron de conception)
+-Factory/Abstract Factory
+
+Voir si on fait la vue
+
+
+
+IDÉE JEUX :
+
+Passive :
++1 godFavor
++1 Shield
++1 HP
++1 Reroll
+-1pv -> 1 enchanted OU -1 reroll -> enchanted
+Random reduce CD ----> À voir pour ajouter l'effet dans les artefacts
+
+
+STRUCT DE DONNÉES :
+List
+Registre de Command (dict)
+Queue de join game à coder (liste doublement chaîné)
+
+PATRON DE CONCEPTION :
+- Command
+- Observer avec React Native
+- (À confirmer) Builder pour EffectSequence
+
+
+TOUR DE JEU :
+-Status Phase
+-Upkeep & Passive
+-Rolling Phase (30 s)
+-Action Phase(param 2 dé ; 3 dé) - 30s --> x2
+-End Phase

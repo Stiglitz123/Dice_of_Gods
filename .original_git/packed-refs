@@ -1,0 +1,8 @@
+# pack-refs with: peeled fully-peeled sorted 
+e8f10bd9d9bf2d626fa48ea161ecadcee908a121 refs/remotes/origin/PlayerStatsNArtefactRecomendation
+8d15d0cdce3580ca574e2339fcf60cfad73462c2 refs/remotes/origin/UpdateInAnim
+7df21789c13bc9a2c377ab495876adc53ab4c70c refs/remotes/origin/main
+bb425b0051f733e5e8c49de0a9ac06b899a6edc8 refs/tags/Sprint1
+2cefafb94ebdbd08f3e66f66f29ff3effc4f49e1 refs/tags/Sprint2
+100c9016013a6f3499d69d85377a0387ef57afe3 refs/tags/Sprint3
+7df21789c13bc9a2c377ab495876adc53ab4c70c refs/tags/Sprint_Final
